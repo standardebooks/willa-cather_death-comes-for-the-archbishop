@@ -57,3 +57,14 @@ section[epub|type~="epigraph"] > *{
 	}
 }
 /* End full-page epigraphs */
+
+header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
+[epub|type~="z3998:song"] p{
+	text-align: initial;
+	text-indent: 0;
+}

@@ -28,21 +28,25 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Death Comes for the Archbishop</dc:title>
 		<meta property="file-as" refines="#title">Death Comes for the Archbishop</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Clergy -- Fiction</dc:subject>
+		<dc:subject id="subject-2">New Mexico -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh85026951</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh2008108357</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta id="collection-1" property="belongs-to-collection">Modern Library’s 100 Best Novels</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta property="group-position" refines="#collection-1">61</meta>
+		<dc:description id="description">In the 1850s, a priest makes the difficult journey from the Great Lakes to the vast territory of New Mexico, where he establishes a diocese and builds it a new cathedral.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Set in the 1850s, this short novel is about the struggles and triumphs of a bishop, Jean Marie Latour, and his loyal friend and vicar, Father Joseph Vaillant. They have been sent to reawaken and spread the Roman Catholic faith in an area where it has grown weak: New Mexico, recently annexed by the United States. Desolate and remote, the territory is home to many diverse groups: Mexicans, including those on ranches established for hundreds of years; Indians, who have been there much longer and who are divided by language and customs into thirty nations; and newcomers—hunters, fur trappers, and those seeking gold. This book is as much their story as it is of the priests and the vast changes the land itself underwent in those years.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Death Comes for the Archbishop&lt;/i&gt; was a departure for &lt;a href="https://standardebooks.org/ebooks/willa-cather"&gt;Willa Cather&lt;/a&gt; (1873–1947), who had already published eight novels when it came out in 1927. It doesn’t try to follow a single unified story the way many historical novels do. Instead, its nine chapters are episodic, and filled with stories, legends, histories, and descriptions of the Southwest, which Cather had been visiting for many years before she started writing it.&lt;/p&gt;
+			&lt;p&gt;Many of its main characters, including the bishop and his vicar, are thinly disguised versions of real-life historical figures, while other famous New Mexicans of the day, including the frontiersman Kit Carson and the “powerful old priest,” Antonio José Martínez, appear under their actual names.&lt;/p&gt;
 		</meta>
-		<dc:language>EN-GB</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://gutenberg.net.au/ebooks02/0200491h.html</dc:source>
+		<dc:source>https://archive.org/details/aclmku00000577a2226/</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Death_Comes_for_the_Archbishop</meta>
@@ -53,18 +57,18 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Willa_Cather</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80015717</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
+		<dc:contributor id="artist">Marsden Hartley</dc:contributor>
+		<meta property="file-as" refines="#artist">Hartley, Marsden</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Marsden_Hartley</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79045444</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Don Lainson</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Lainson, Don</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">John Rambow</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Rambow, John</meta>
+		<meta property="se:url.homepage" refines="#producer-1">http://johnrambow.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>

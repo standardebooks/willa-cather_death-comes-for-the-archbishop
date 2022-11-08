@@ -2,12 +2,6 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
-header{
-	font-variant: small-caps;
-	margin: 1em;
-	text-align: center;
-}
-
 /* song */
 [epub|type~="z3998:song"] p{
 	text-align: initial;

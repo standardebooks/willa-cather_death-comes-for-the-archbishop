@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/willa-cather/death-comes-for-the-archbishop</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2023-01-01T20:45:19Z</dc:date>
+		<meta property="dcterms:modified">2023-01-01T20:45:19Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -38,17 +38,17 @@
 		<meta id="collection-1" property="belongs-to-collection">Modern Library’s 100 Best Novels</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">61</meta>
-		<dc:description id="description">In the 1850s, a priest makes the difficult journey from the Great Lakes to the vast territory of New Mexico, where he establishes a diocese and builds it a new cathedral.</dc:description>
+		<dc:description id="description">A priest makes the difficult journey from the Great Lakes to the vast territory of 1850s New Mexico to establish a diocese.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Set in the 1850s, this short novel is about the struggles and triumphs of a bishop, Jean Marie Latour, and his loyal friend and vicar, Father Joseph Vaillant. They have been sent to reawaken and spread the Roman Catholic faith in an area where it has grown weak: New Mexico, recently annexed by the United States. Desolate and remote, the territory is home to many diverse groups: Mexicans, including those on ranches established for hundreds of years; Indians, who have been there much longer and who are divided by language and customs into thirty nations; and newcomers—hunters, fur trappers, and those seeking gold. This book is as much their story as it is of the priests and the vast changes the land itself underwent in those years.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;Death Comes for the Archbishop&lt;/i&gt; was a departure for &lt;a href="https://standardebooks.org/ebooks/willa-cather"&gt;Willa Cather&lt;/a&gt; (1873–1947), who had already published eight novels when it came out in 1927. It doesn’t try to follow a single unified story the way many historical novels do. Instead, its nine chapters are episodic, and filled with stories, legends, histories, and descriptions of the Southwest, which Cather had been visiting for many years before she started writing it.&lt;/p&gt;
+			&lt;p&gt;Set in the 1850s, this short novel is about the struggles and triumphs of a bishop, Jean Marie Latour, and his loyal friend and vicar, Father Joseph Vaillant. They have been sent to reawaken and spread the Roman Catholic faith in an area where it has grown weak: New Mexico, recently annexed by the United States. Desolate and remote, the territory is home to many diverse groups: Mexicans, including those on ranches established for hundreds of years; Indians, who have been there much longer and who are divided by language and customs into thirty nations; and newcomers—hunters, fur trappers, and those seeking gold. This book is as much their story as it is the story of the priests and the vast changes the land itself underwent in those years.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Death Comes for the Archbishop&lt;/i&gt; was a departure for &lt;a href="https://standardebooks.org/ebooks/willa-cather"&gt;Willa Cather&lt;/a&gt;, who had already published eight novels before publishing this one in 1927. The novel doesn’t try to follow a single unified story the way many historical novels do; instead, its nine chapters are episodic, filled with stories, legends, histories, and descriptions of the Southwest, which Cather had been visiting for many years before she started writing it.&lt;/p&gt;
 			&lt;p&gt;Many of its main characters, including the bishop and his vicar, are thinly disguised versions of real-life historical figures, while other famous New Mexicans of the day, including the frontiersman Kit Carson and the “powerful old priest,” Antonio José Martínez, appear under their actual names.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://gutenberg.net.au/ebooks02/0200491h.html</dc:source>
 		<dc:source>https://archive.org/details/aclmku00000577a2226/</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">70155</meta>
+		<meta property="se:reading-ease.flesch">68.6</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Death_Comes_for_the_Archbishop</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/willa-cather_death-comes-for-the-archbishop</meta>
 		<dc:creator id="author">Willa Cather</dc:creator>
@@ -75,6 +75,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
